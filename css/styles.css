@@ -1,0 +1,57 @@
+:root {
+    --primario: #013750;
+    --verdeuno: #2c6b74;
+    --verdedos: #00988d;
+    --beige: #fef5c8;
+    --anaranjado: #f23e02;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 400;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--primario);
+}
+
+/*Especifidad, se busca lo que queremos hacer mas exacto*/
+h1.titulo span { 
+    font-size: 2rem;
+}
+
+/*
+Sin importar la especifidad "color: brown!important;" 
+el important hace que el color se aplique a todo
+
+.titulo span{
+  color: brown!important;  
+}
+
+*/
+.contenedor{
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--primario);
+}
+
+.navegacion-principal{
+    
+}
+
+.navegacion-principal a{
+    background-color: var(--beige);
+}
+
+
