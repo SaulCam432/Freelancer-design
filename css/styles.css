@@ -47,11 +47,21 @@ el important hace que el color se aplique a todo
 }
 
 .navegacion-principal{
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 .navegacion-principal a{
+    padding: 1rem 4rem;
+    color: var(--beige);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navegacion-principal a:hover {
     background-color: var(--beige);
+    color: var(--primario);
 }
 
 
